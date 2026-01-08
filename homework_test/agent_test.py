@@ -1,7 +1,7 @@
 import pytest
-from task.agent import main
-from task.models import NPC, Class
-from test.helpers import skip_on_error, probabilistic_test
+from homework.agent import main
+from homework.models import NPC, Class
+from homework_test.helpers import skip_on_error, probabilistic_test
 
 
 @pytest.mark.asyncio

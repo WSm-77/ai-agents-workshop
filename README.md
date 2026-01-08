@@ -11,18 +11,16 @@ This repository contains materials and exercises for AI Agents Workshop.
 ### 1. Theoretical Introduction
 Learn the fundamentals through examples:
 - Basic API calls to LLMs
-- Structured output with PydanticAI
 - Function calling (Tools)
-- Chain of Thought (CoT) prompting
-- Few-shot learning
+- Structured output
 - What are the agents under the hood?
 
 [View the README](./introduction/README.md)
 
-### 2. Task
+### 2. Homework
 In pairs, solve a practical task with the help of LLM.
 
-[View the task README](./task/README.md)
+[View the homework README](./homework/README.md)
 
 ### 3. Discussion
 
@@ -33,14 +31,12 @@ In pairs, solve a practical task with the help of LLM.
 ```
 .
 ├── introduction/                # Concepts explanations
-│   ├── 1_theory.md
-│   ├── 2_simple_calls.ipynb
-│   ├── 3_function_calling.ipynb
-│   ├── 4_structured_output.ipynb
-│   ├── 5_chain_of_thought.ipynb
-│   ├── 6_few_shot.ipynb
-│   ├── 7_lets_loop.ipynb
-│   └── introduction/            # Benchmark scripts that generated the charts
-├── task/                        # Task for you!
-└── test/                        # Test module for the task
+│   ├── 0_theory.md
+│   ├── 1_simple_calls.ipynb
+│   ├── 2_function_calling.ipynb
+│   ├── 3_structured_output.ipynb
+│   ├── 4_lets_loop.ipynb
+│   └── scripts/                 # Benchmark scripts that generated the charts
+├── homework/                    # Homework for you!
+└── homework_test/               # Test module for the homework
 ```

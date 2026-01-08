@@ -4,7 +4,7 @@ from pydantic_ai.models.openai import OpenAIChatModel
 from pydantic_ai.providers.ollama import OllamaProvider
 from pydantic_ai import Agent
 
-from task.models import NPC
+from homework.models import NPC
 
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://ollama:11434/v1")
 MODEL = "llama3.2"

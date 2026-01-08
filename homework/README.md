@@ -14,7 +14,7 @@ An AI-powered NPC generator that takes a text prompt (_e.g., "Create a mysteriou
 - Stats (strength, charisma, intelligence)
 
 ## Your Tasks
-Replace the [placeholder agent implementation](./agent.py). Your soluiton can(and most probably should):
+Replace the [placeholder agent implementation](./agent.py). Your solution can(and most probably should):
 - Use one of the prompt techinques we've discussed
 - Test how often it fails, play with retries param
 - Run your agent with `task run`* command to see it in action
@@ -39,6 +39,6 @@ Good luck!
 
 <br><br>
 
-*or if you don't have [Task/Taskfile](https://taskfile.dev/docs/installation), run: `docker compose exec jupyter python -m task.agent`
+*or if you don't have [Task/Taskfile](https://taskfile.dev/docs/installation), run: `docker compose exec jupyter python -m homework.agent`
 
-**or if you don't have [Task/Taskfile](https://taskfile.dev/docs/installation), run: `docker compose exec jupyter pytest test/agent_test.py --log-cli-level=INFO`
+**or if you don't have [Task/Taskfile](https://taskfile.dev/docs/installation), run: `docker compose exec jupyter pytest homework_test/agent_test.py --log-cli-level=INFO`
