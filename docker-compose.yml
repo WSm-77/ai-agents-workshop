@@ -10,10 +10,10 @@ services:
       - ollama_data:/root/.ollama
     restart: unless-stopped
     healthcheck:
-      test: ["CMD-SHELL", "ollama list || exit 1"]
-      interval: 3000s
-      timeout: 10s
-      retries: 5
+      test: ["CMD-SHELL", "ollama list | grep -q llama3.2 || exit 1"]
+      interval: 10s
+      timeout: 100s
+      retries: 200
       start_period: 30s
 
   jupyter:
