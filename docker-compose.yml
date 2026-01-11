@@ -2,7 +2,7 @@ services:
   ollama:
     build:
       context: .
-      dockerfile: Dockerfile.ollama
+      dockerfile: .docker/Dockerfile.ollama
     container_name: ollama
     ports:
       - "11434:11434"
@@ -19,7 +19,7 @@ services:
   jupyter:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: .docker/Dockerfile
     container_name: jupyter_notebook
     ports:
       - "8888:8888"

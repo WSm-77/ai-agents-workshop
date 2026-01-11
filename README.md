@@ -13,16 +13,17 @@ Learn the fundamentals through examples:
 - Structured output
 - What are the agents under the hood?
 
-[View the workshop README](./introduction/README.md)
+[View the workshop README](./workshop/README.md)
+
+📚 Need help with some technical terms? See the [Glossary](./GLOSSARY.md) for explanations of HTTP, Docker, JSON, and more.
 
 ### 2. Discussion
-
 
 ## Repository Structure
 
 ```
 .
-├── introduction/                # Concepts explanations
+├── workshop/
 │   ├── 0_theory.md
 │   ├── 1_simple_calls.ipynb
 │   ├── 2_function_calling.ipynb
@@ -30,7 +31,9 @@ Learn the fundamentals through examples:
 │   ├── 4_lets_loop.ipynb
 │   └── scripts/                 # Benchmark scripts that generated the charts
 ├── homework/                    # Homework for you!
-└── homework_test/               # Test module for the homework
+├── homework_test/               # Test module for the homework
+├── GLOSSARY.md                  # Technical terms explained
+└── .docker/                     # Docker configuration files
 ```
 
 ---

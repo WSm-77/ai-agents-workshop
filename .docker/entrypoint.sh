@@ -14,13 +14,12 @@ if ! ollama list | grep -q "llama3.2"; then
     echo "Pulling llama3.2 model..."
     MAX_RETRIES=200
     RETRY_COUNT=0
-    
+
     while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
         echo "Attempt $((RETRY_COUNT + 1)) of $MAX_RETRIES..."
-        
+
         if ollama pull llama3.2; then
             echo "Model pulled successfully!"
-            touch /tmp/model_ready
             break
         else
             RETRY_COUNT=$((RETRY_COUNT + 1))
@@ -35,7 +34,6 @@ if ! ollama list | grep -q "llama3.2"; then
     done
 else
     echo "llama3.2 model already exists"
-    touch /tmp/model_ready
 fi
 
 wait

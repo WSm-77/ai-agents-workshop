@@ -5,6 +5,8 @@
 - [Docker](https://www.docker.com/products/docker-desktop/)
 - [Task/Taskfile](https://taskfile.dev/docs/installation) (optional, but recommended)
 
+📚 **Unfamiliar with technical terms?** Check out our [Glossary](../GLOSSARY.md) for clear explanations!
+
 
 ## Option 1: Using Taskfile (Recommended)
 
@@ -34,7 +36,7 @@ This will build the images (including pulling the Llama 3.2 model into the Ollam
 ### After Setup is Done, Access Jupyter Notebooks:
    Open your browser and navigate to:
    ```
-   http://localhost:8888/tree/introduction
+   http://localhost:8888/tree/workshop
    ```
 
    _You can also open it within your IDE, using the kernel link_:
