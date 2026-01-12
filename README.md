@@ -1,3 +1,48 @@
+<div class="container">
+<div class="main-content">
+
+<img src="./.svg/we_are_U2I.svg">
+
+<br><br>
+
+u2i is a Kraków-based software house that just recently turned 25. We specialize in Medtech and Edtech, having worked on 15+ projects within these fields, with some partnerships lasting over 10 years.
+
+**How we work**
+
+- We build long-term partnerships with our clients, which means more trust and space to grow and less project hopping.
+- We build small, autonomous teams where everyone's voice actually matters. Developers work closely with clients, not just follow tickets.
+
+**Growth & culture**
+
+- We invest heavily in development: mentoring, feedback, self-dev time, and more.
+- u2iers participate in the company's profit and have transparent access to data.
+
+**Why join u2i**
+
+- You will be involved in the full product lifecycle, from high-level architecture to deployment, working directly with our US-based partners.
+- You will have space to take ownership, learn fast, and work on meaningful software with people who care.
+- You get free lunches and a full pantry.
+
+</div>
+</div>
+<br><br>
+
+<img src="./.svg/check_out_our_social_media_channels.svg">
+
+<br>
+
+<a href="https://u2i.com/careers"><img src="./.svg/world-wide-web.svg"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://linkedin.com/company/u2i"><img src="./.svg/linkedin.svg"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/u2ikrk"><img src="./.svg/instagram.svg"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://facebook.com/u2ikrk"><img src="./.svg/facebook.svg"></a>
+
+<br>
+
+---
+
 # AI Agents Workshop
 
 This repository contains materials and exercises for AI Agents Workshop.
