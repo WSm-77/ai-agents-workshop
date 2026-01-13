@@ -321,14 +321,6 @@ A storage location for code, typically managed by version control systems like G
 ### Git
 A version control system that tracks changes to files over time. Allows multiple people to work on the same project without conflicts.
 
-### Terminal/Command Line
-A text-based interface for interacting with your computer. You type commands instead of clicking buttons.
-
-**Common commands**:
-- `cd` - Change directory
-- `ls` - List files
-- `pwd` - Print working directory
-
 ### Environment Variable
 A variable stored outside your code that can change based on where the code runs. Often used for configuration and secrets.
 

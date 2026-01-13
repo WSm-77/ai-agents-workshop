@@ -4,7 +4,7 @@ Large Language Models (LLMs) are AI systems that take text as input and generate
 
 ![Tokens][embedding_img]
 
-[See 3brown1blue video here](https://youtu.be/FJtFZwbvkI4?si=PWozD2vAodNjmG4p)
+[See 3Blue1Brown video here](https://youtu.be/FJtFZwbvkI4?si=PWozD2vAodNjmG4p)
 
 
 ## Running LLMs Locally with Ollama
@@ -21,15 +21,15 @@ Learn more at [ollama.com](https://ollama.com).
 
 
 
-## New paradigm - indeterminism
+## New paradigm - non-determinism
 
-Development with LLMs is different than before - the LLM based applications are **always undeterministic** - which means that the behavior of the app is not predictable.
-This can be both the advantage - the app can be more flexible and similar to human behavior, but also it can be really problematic as LLM can return the wrong response, even if for the past 100 times it did well.
+Development with LLMs is different from before: LLM-based applications are **non-deterministic**, which means the behavior of the app is not perfectly predictable.
+This can be an advantage (more flexible, more human-like), but it can also be problematic: an LLM can return a wrong response even if it behaved correctly the previous 100 times.
 
 <img src="https://ih1.redbubble.net/image.2860257958.8018/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Indeterminism" width="360">
 
 
-So, during the development, we try to make it as predictable as possible, but at the same time using the agility of the LLMs.
+So during development, we try to make behavior as predictable as possible while still leveraging the flexibility of LLMs.
 
 
 ## System Prompts
@@ -68,7 +68,7 @@ Two effective formatting approaches have emerged from industry research and best
 ...
 ```
 
-Always look for a documentation dedicated to the model you want to use, for ex.:
+Always look for documentation dedicated to the model you want to use, for example:
 - [Anthropic's prompt engineering guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/use-xml-tags)
 - [OpenAI's prompt engineering guide](https://platform.openai.com/docs/guides/prompt-engineering)
 

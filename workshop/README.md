@@ -48,7 +48,7 @@ This will build the images (including pulling the Llama 3.2 model into the Ollam
 
 The following notebooks and documents will guide you through the workshop:
 
-- **0_theory.md**: Introduction to LLMs, tokens, and the deterministic vs. undeterministic paradigm.
+- **0_theory.md**: Introduction to LLMs, tokens, and the deterministic vs. non-deterministic paradigm.
 - **1_simple_calls.ipynb**: Learn how to interact with LLMs via basic HTTP API calls.
 - **2_function_calling.ipynb**: Using Tools/Functions with LLMs to extend their capabilities.
 - **3_structured_output.ipynb**: Getting reliable, typed data from models using PydanticAI. Also covers **Chain of Thought\*** and **Few-shot\*** prompting.

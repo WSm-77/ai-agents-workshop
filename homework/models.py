@@ -27,7 +27,7 @@ class NPC(BaseModel):
         {
             "name": "Eldrin the Wise",
             "npc_class": "Mage",
-            "is_hostile": false
+            "is_hostile": false,
             "catchphrase": "Knowledge is the greatest power of all!",
             "stats": {
                 "strength": 8,

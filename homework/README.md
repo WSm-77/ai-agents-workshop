@@ -1,7 +1,7 @@
 # Task: Building a Fantasy Character Generator
-Your goal is to create an AI agent that generates fantasy character(called `NPC` from now on) based on the text descriptions. 
+Your goal is to create an AI agent that generates fantasy characters (called `NPC`s from now on) based on text descriptions.
 
-You can use any prompting technique learned in the theoretical part, mix them etc.
+You can use any prompting technique learned in the theoretical part, or mix and match them.
 
 You're also encouraged to think out of the box and just try each approach you can think of!
 
@@ -19,7 +19,9 @@ Replace the [placeholder agent implementation](./agent.py). Your solution can(an
 - Test how often it fails, play with retries param
 - Run your agent with `task run`* command to see it in action
 - When ready, run the tests with `task test`** command!
-- At the end, we'll have a brief discussion about your solutions
+- You can get feedback if you do one of the following (in the next 7 days):
+    - Create a PR with your solution! [See how to create a PR from a fork repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork)
+    - Send me a zipped solution to _**iwo.szczepaniak@u2i.com**_
 
 ## Tips
 - Try to be as specific as possible
